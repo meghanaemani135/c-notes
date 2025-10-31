@@ -1,0 +1,694 @@
+include <iostream>
+using namespace std;
+
+int main()
+
+   { // Write C++ code here
+    int a ;
+    int b;
+    cout <<"enter your reg no:saranya.";
+    cin>> a;
+    cout <<"enter your reg no.";
+    cin>> b;
+    cout <<"saranya your reg no is:"<<a<<endl;
+    cout <<"your frnds reg no is:"<<b;
+..............................................................................................................
+    return 0;/data types in c++
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //integer data type used to store whole numbers
+    int a = 10;
+    //float data type used to store decimal numbers
+    float b = 50.6;
+    double c = 10.89926;
+    char d = 'z';
+    string e = "meghana";
+ ..........................................................................................................
+    cout << "integer"<<a<<endl;// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string e = "meghana";
+    int i = 18;
+float b = 5.3;
+double d = 40;
+char c = 'o';// Online C++ compiler to run C++ program online
+
+........................................................................................................
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string name;
+    int age;
+float height;
+double weight;
+cout<<"enter your name:";
+cin>>name;
+
+cout<<"enter your age:";
+cin>>age;
+
+cout<<"enter your height(in feet):";
+cin>>height;
+
+cout<<"enter your weight(in kgs):";
+cin>>weight;
+    return 0;
+}
+    return 0;
+}
+    cout << "float"<<b<<endl;
+ 
+    return 0;
+}
+}
+
+...............................................................................................................................
+
+variables>>> in c++ are used to store data and manipulated through a program
+data types in c++
+data types help the compiler allocate th appropriate amount of memory and determine
+how to interpret the data.
+int >>> these are used to store interger values(whole number)i.e 1,2,3,4
+float>>> use4d to store decimal values(single precison)>>i.e10.2,7.7
+double >>(double precision) i.e 10.777,5.789
+char>>> used to store a single character i.e a,d
+string>> is as sequence of charcter i.e "hello">>
+...........................................................................................................................
+operators in c++
+1.arth op>>
+>> (+,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*,/,%)
+2.relational op
+>>. (=,>,
+// Online C++ compiler to run C++ program online
+
+.............................................................................................
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+
+{
+    int a = 10,b = 20;
+    cout<<"addition :"<< a + b<<endl;
+ 
+    cout<<"substraction :"<< a - b<<endl;
+ 
+
+    return 0;
+}18
+.............................................................................................
+
+
+logical and exp1:1
+logical and exp2:0
+logical or exp1 :1
+logical not :0
+
+
+=== Code Execution Successful =
+
+
+
+
+
+// Online C compiler to run C program online
+#include <iostream>
+using namespace std;
+int main()
+{
+ 
+int a = 10;
+if (a > 15)
+{
+  cout << "a is greater than 15";
+}
+  cout << "a is less than 15";
+    return 0;
+}
+
+....................................................................
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+int a = 5;
+if (a > 15)
+{
+    cout <<a<< "is greater than 15";
+}
+else
+{
+    cout <<a<< "is less than 15";
+}
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout << "enter your age :";
+cin >> a;
+if (a >= 18)
+{
+    cout << " you are eligible to vote";
+}
+else
+{
+    cout << "you are not eligible to vote";
+ 
+}
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int a = 10;
+    int b = 20;
+    cout<<"addition :"<< a+b;
+
+    return 0;
+}
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout << "enter your age :";
+cin >> a;
+if (a >= 18)
+{
+    cout << " you are eligible to vote";
+}
+else
+{
+    cout << "you are not eligible to vote";
+ 
+}
+  return 0;
+}
+
+...............................................................................................................
+
+
+
+
+   // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+int num1,num2,num3;
+cout << "enter three numbers: ";
+cin >> num1 >> num2 >> num3;
+
+// find the largest number
+if (num1 >= num2 && num2 >=num3)
+{
+    cout << num1 << "is the largest number "<<endl;
+}
+else if (num2 >= num1 && num2 >= num3)
+{
+    cout << num2 << "is the largest number "<<endl;
+}
+else
+{
+        cout << num3 << "is the largest number "<<endl;
+}
+ return 0;
+}
+
+................................................................................................
+
+loop in c++
+loops in c++ are used to execute a block of code reapeatedly until A certain condition is met.they help in image repetitive tasks.
+
+
+1.for loop : used when the number of iterations is known beforehand.
+2.while loop :used when the number of iterations is not known and depend on a condition.
+3.do-while loop : similar to the while loop,but guarantees that the block of code will be executed at
+                  ***least once before checking the condition***
+
+
+
+.........................................................................................................................................
+
+// printing numbers from 1 to 5 using
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ 
+    for ( int i = 1 ; i <=5 ;i++)
+    {
+cout<<i<<endl;
+}
+    return 0;
+}
+
+functions in c++.
+a functions in c++ is agroup of statements that performs aspecific task and can be reused amywhere in the program.
+
+
+reusability : write once, use many times
+readability: code becomes easaier to read and understand
+debugging: errors and easier to find since each functions is small and focused
+modularity: large amounts
+...........................................................................................................................
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function defination
+void greet()
+{
+    cout<<"happy birthday!!!"<<endl;
+}
+int main()
+{
+    greet();//calling he function
+    greet();
+    //body
+ 
+
+
+    return 0;
+}
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function defination
+int add(int a , int b) // passing parameters
+{
+    return a + b; // returning the values
+}
+int mul(int a , int b)
+
+{
+   return a * b;
+}
+
+int sub(int a , int b)
+{
+    return a - b;
+}
+
+int main()
+{
+    cout<<"addition :"<<add(5,10)<<endl;
+     cout<<"multiplication :"<<mul(5,10)<<endl;
+cout<<"subtraction :"<<sub(5,10)<<endl;/ Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function defination
+int add(int a , int b) // passing parameters
+{
+    return a + b; // returning the values
+}
+int mul(int a , int b)
+
+{
+   return a * b;
+}
+
+int sub(int a , int b)
+{
+    return a - b;
+}
+float div1( int a , int b)
+{
+    if(b == 0)
+    {
+        cout<<"division by zero!!infinite"<<endl;
+        return 0 ;
+    }
+    return (float)a / b;
+}
+int main()
+{
+    cout<<"addition :"<<add(5,10)<<endl;
+     cout<<"multiplication :"<<mul(5,10)<<endl;
+cout<<"subtraction :"<<sub(5,10)<<endl;
+cout<<"division :"<<div1(5,10)<<endl;
+   return 0;
+   }
+   return 0;
+   }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+int day;
+cout<<"enter your number (1-7) corresponding to the day of the week :";
+cin >> day;
+//switch statement to determine the day of the week
+switch(day)
+{
+    case 1:
+        cout << "monday" <<endl;
+        break;
+ 
+    case 2:
+    cout << "tuesday" <<endl;
+    break;
+ 
+    case 3:
+    cout << "wednesday" <<endl;
+    break;
+ 
+    case 4:
+    cout << "thursday" <<endl;
+    break;
+ 
+    case 5:
+    cout << "friday" <<endl;
+    break;
+ 
+    case 6:
+    cout << "saturday" <<endl;
+    break;
+ 
+    case 7:
+    cout << "sunday" <<endl;
+    break;
+ 
+  default:
+   cout << "invalid input! please enter a number between 1 and 7"<<endl;
+   break;
+ 
+ 
+}
+
+    return 0;
+}
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Car
+{
+    public:
+           string brand;
+           string model;
+           int price;
+           int year;
+};
+
+int main() {
+       Car car1;//creating an object of the class
+ 
+       car1.brand = "BMW";
+       car1.model = "b- class";
+       car1.price = 5000000;
+       car1.year = 2024;
+ 
+         cout<<car1.brand<<endl;//direct way of printing
+         cout<<car1.model<<endl;
+ 
+    return 0;
+}
+
+
+
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#include <iostream>
+using namespace std;
+
+ class Teacher {
+    public:
+    string name;
+    string subject;
+    int years;
+    char gender;
+ 
+ 
+    void display()
+    {
+      cout <<"name :"<<name<<endl;
+      cout <<"subject :"<<subject<<endl;
+      cout <<"years :"<<years<<endl;
+      cout <<"gender :"<<gender<<endl;
+ 
+    }
+ 
+ 
+};
+ int main()
+ {
+     Teacher t1;
+     cout<<"enter the teacher name:"<<endl;
+     (cin,t1.name);
+     cout<<"enter the subject name:"<<endl;
+     (cin,t1.subject);
+     cout<<"Year of Exp:"<<endl;
+     (cin,t1.years);
+     cout<<"enter Gender:"<<endl;
+     (cin,t1.gender);
+     t1.display();
+ 
+        return 0;
+ }
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+
+class Car{
+    public:
+    string make;
+    string model;
+    int year;
+ 
+    //default constructor (no parameters)
+    Car(){
+        make = "benz";
+ 
+        model = "Xo8";
+ 
+        year = 2;
+ 
+    }
+ 
+    void displayinfo(){
+        cout<<year<<"" <<endl
+            <<make<<""<<endl
+         <<model<<endl;
+    }
+};
+
+int main(){
+    //creating on object using default constructor
+    Car myCar;
+ 
+ 
+    //displaying the information
+    myCar.displayinfo();
+
+
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+
+class Teacher
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    double salary;
+ 
+ 
+    //constructor
+    Teacher()
+    {
+        cout << "I am a default constructor :";
+ 
+ 
+    }
+ 
+    void displayinfo()
+    {
+        cout<<"Teacher name : "<<name <<endl;
+        cout<<"department : "<<name<<endl;
+       cout<<"experience : "<<name<<endl;
+        cout<<"salary : "<<name<<endl;
+    }
+};
+
+int main()
+{
+    Teacher T1; //create an object
+ 
+ 
+ 
+ 
+ 
+
+
+    return 0;
+}
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+
+class Teacher
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    int salary;
+ 
+ 
+    //constructor
+    Teacher()
+    {
+ 
+        cout<<"Teacher name : "<<"maggie"<<endl;
+        cout<<"department : "<<"computer science"<<endl;
+       cout<<"experience : "<<8<<endl;
+        cout<<"salary : "<<70000<<endl;
+    }
+};
+
+int main()
+{
+    Teacher T1; //create an object
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+    return 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class parent
+{
+    public:
+    void food()
+    {
+        cout << "inherited,burger" ; }
+ 
+    };
+ class Child : public parent // creating the child and inheriting it
+ { };
+ 
+ int main()
+ {
+     Child b;
+     b.food();
+ 
+ 
+
+    return 0;
+}

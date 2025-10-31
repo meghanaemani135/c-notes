@@ -1,23 +1,19 @@
-include <iostream>
-using namespace std;
+    Thread t;
 
-int main() 
+    NewThread() {
+        // Create a new, second thread
+        t = new Thread(this, "Demo Thread");
+    }
+}
+[12:43 pm, 24/09/2025] Arjun Avit: // Create a new, second thread
+t = new Thread(this, "Demo Thread");
+System.out.println("Child thread: " + t);
 
-   { // Write C++ code here
-    int a ;
-    int b;
-    cout <<"enter your reg no:saranya.";
-    cin>> a;
-    cout <<"enter your reg no.";
-    cin>> b;
-    cout <<"saranya your reg no is:"<<a<<endl;
-    cout <<"your frnds reg no is:"<<b;
-
-    return 0;
-}    
-
-
-
-
-
-hhhhhh
+t.start(); // Start the thread
+[12:45 pm, 24/09/2025] Arjun Avit: public void run() {
+    try {
+        for (int i = 5; i > 0; i--) {
+            System.out.println("Child Thread: " + i);
+            Thread.sleep(500);
+        }
+    }

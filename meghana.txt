@@ -1,0 +1,23 @@
+include <iostream>
+using namespace std;
+
+int main() 
+
+   { // Write C++ code here
+    int a ;
+    int b;
+    cout <<"enter your reg no:saranya.";
+    cin>> a;
+    cout <<"enter your reg no.";
+    cin>> b;
+    cout <<"saranya your reg no is:"<<a<<endl;
+    cout <<"your frnds reg no is:"<<b;
+
+    return 0;
+}    
+
+
+
+
+
+hhhhhh
